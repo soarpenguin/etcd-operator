@@ -1,0 +1,6 @@
+domain: yyds.io
+layout:
+- go.kubebuilder.io/v3
+projectName: etcd-operator
+repo: github.com/soarpenguin/etcd-operator
+version: "3"
