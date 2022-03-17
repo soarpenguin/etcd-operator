@@ -3,4 +3,14 @@ layout:
 - go.kubebuilder.io/v3
 projectName: etcd-operator
 repo: github.com/soarpenguin/etcd-operator
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: yyds.io
+  group: etcd
+  kind: EtcdCluster
+  path: github.com/soarpenguin/etcd-operator/api/v1alpha1
+  version: v1alpha1
 version: "3"

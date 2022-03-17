@@ -1,0 +1,8 @@
+apiVersion: etcd.yyds.io/v1alpha1
+kind: EtcdCluster
+metadata:
+  name: etcdcluster-sample
+spec:
+  # TODO(user): Add fields here
+  size: 3
+  image: quay.io/coreos/etcd
